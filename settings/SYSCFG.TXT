@@ -10,12 +10,12 @@ Movie Time Lapse Record=[0];0:off,1:0.25s,2:0.5s,3:1s,4:2s,5:5s,6:10s,7:30s,8:Cu
 Movie Time Lapse Record Customized Value=[1]    ; in minutes, values from 1 to 1440 (1 day)
 Movie Sound=[1];set movie sound,0:Mute,1:On,
 Movie Cycle time=[2];movie cycle time,0:3 minutes,1:5 minutes,2:10 minutes,3:15 minutes,4:max to 4G byte,
-Movie Loop Recording=[0];set loop recording on or off,0:off,1:on,
-Movie Flip=[0];set movie rotate,0:off,1:on,
+Movie Loop Recording=[1];set loop recording on or off,0:off,1:on,
+Movie Flip=[1];set movie rotate,0:off,1:on,
 Movie Time stamp=[1];set date/time stamp on or off,0:off,1:on,
 Movie quality=[1];set movie quality,set movie data rate,0:Super,1:Standard,2:Low,
 Movie high dynamic range=[0];set movie high dynamic range,0:off,1:on,2:Enhanced Brightness,
-Movie file format=[0];set movie file format,0:MOV,1:AVI,2:MP4,3:WAV (Sound Only)
+Movie file format=[2];set movie file format,0:MOV,1:AVI,2:MP4,3:WAV (Sound Only)
 
 VIDEO MODE 2
 Movie Resolution=[3];0:1080p(Wide AOV),1:1080p(Narrow AOV),2:720p(Wide AOV),3:720p(Narrow AOV),4:WVGA (Wide AOV), 5:WVGA (Narrow AOV),
@@ -41,9 +41,9 @@ Photo Time stamp=[1];set date/time stamp on or off,0:off,1:on,
 
 Power on=[1];set system  power on time,0:delay,1:fast
 Power off=[1];set system auto power off time when system pending,0:off,1:30 seconds,2:1 minutes,3:2 minutes,
-Auto Record with External Power=[0];set connect with power to start video recording automatically,0:off,1:on,
+Auto Record with External Power=[1];set connect with power to start video recording automatically,0:off,1:on,
 One Power Button to Auto Record=[0];set press power key to start video recording automatically,0:off,1:on,
-Auto Off with External Power disconnected=[0],0:Immediately,1:delay 10s;2:record to low battery power off,
+Auto Off with External Power disconnected=[2],0:Immediately,1:delay 10s;2:record to low battery power off,
 LED=[1];set LED flicker when recording,0:off,1:on,
 Charge from USB Host=[0]; when connecting with USB host, charge camera or not,0:on,1:off
 Lens option =[0];select lens,0:lens A,1:lens B
