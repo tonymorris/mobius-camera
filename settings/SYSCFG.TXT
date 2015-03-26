@@ -1,5 +1,5 @@
 Date format=[0];set date format,0:YYYY/MM/DD, 1:DD/MM/YYYY, 2:MM/DD/YYYY
-Date time=[2013/04/18-15:16:23];date time setting,yyyy/mm/dd-hh:mm:ss,dd/mm/yyyy-hh:mm:ss,or mm/dd/yyyy-hh:mm:ss
+Date time=[2015/03/27-00:05:00];date time setting,yyyy/mm/dd-hh:mm:ss,dd/mm/yyyy-hh:mm:ss,or mm/dd/yyyy-hh:mm:ss
 
 Default Mode=[0];set power-on default mode,0:Video Mode 1,1:Video Mode 2,2:Photo Mode
 
@@ -11,9 +11,9 @@ Movie Time Lapse Record Customized Value=[1]    ; in minutes, values from 1 to 1
 Movie Sound=[1];set movie sound,0:Mute,1:On,
 Movie Cycle time=[2];movie cycle time,0:3 minutes,1:5 minutes,2:10 minutes,3:15 minutes,4:max to 4G byte,
 Movie Loop Recording=[1];set loop recording on or off,0:off,1:on,
-Movie Flip=[1];set movie rotate,0:off,1:on,
+Movie Flip=[0];set movie rotate,0:off,1:on,
 Movie Time stamp=[1];set date/time stamp on or off,0:off,1:on,
-Movie quality=[1];set movie quality,set movie data rate,0:Super,1:Standard,2:Low,
+Movie quality=[0];set movie quality,set movie data rate,0:Super,1:Standard,2:Low,
 Movie high dynamic range=[0];set movie high dynamic range,0:off,1:on,2:Enhanced Brightness,
 Movie file format=[2];set movie file format,0:MOV,1:AVI,2:MP4,3:WAV (Sound Only)
 
