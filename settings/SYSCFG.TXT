@@ -1,5 +1,5 @@
 Date format=[0];set date format,0:YYYY/MM/DD, 1:DD/MM/YYYY, 2:MM/DD/YYYY
-Date time=[2015/03/27-00:23:00];date time setting,yyyy/mm/dd-hh:mm:ss,dd/mm/yyyy-hh:mm:ss,or mm/dd/yyyy-hh:mm:ss
+Date time=[2016/10/01-17:00:00];date time setting,yyyy/mm/dd-hh:mm:ss,dd/mm/yyyy-hh:mm:ss,or mm/dd/yyyy-hh:mm:ss
 
 Default Mode=[0];set power-on default mode,0:Video Mode 1,1:Video Mode 2,2:Photo Mode
 
@@ -43,13 +43,14 @@ Power on=[1];set system  power on time,0:delay,1:fast
 Power off=[0];set system auto power off time when system pending,0:off,1:30 seconds,2:1 minutes,3:2 minutes,
 Auto Record with External Power=[1];set connect with power to start video recording automatically,0:off,1:on,
 One Power Button to Auto Record=[1];set press power key to start video recording automatically,0:off,1:on,
-Auto Off with External Power disconnected=[2],0:Immediately,1:delay 10s;2:record to low battery power off,
+Auto Off with External Power disconnected=[3],0:Immediately,1:delay 10s;2:delay 30s;3:delay 60s;4:record to low battery power off;5:change to motion detect;
 LED=[1];set LED flicker when recording,0:off,1:on,
 Charge from USB Host=[0]; when connecting with USB host, charge camera or not,0:on,1:off
-Lens option =[0];select lens,0:lens A,1:lens B
+Lens option =[1];select lens,0:lens A,1:lens B,2:lens C
 Light frequency =[1];set light source frequency,0:50 HZ,1:60 HZ
 Web camera mode =[0];set web camera mode,0:USB video class(Mjpg codec),1:USB video and audio class(H.264 codec)
 Web camera Flip=[0];set web camera rotate,0:off,1:flip on
+Customized file characters=[REC_];set video 4 free characters of video file
 
 TV out=[0];set Tv out,0:NTSC,1:PAL,
 TV Display Ratio=[0];set display ratio,0:4*3,1:16*9
@@ -59,6 +60,8 @@ Motion Detect=[0];set motion detect,0:off,1:on
 Motion Detect Timeout=[2];set motion detect timeout,0:5s,1:15s,2:30s,3:60s
 Motion Detect Sensitivity=[0];set motion detect Sensitivity,0:high,1:nomal,2:low
 
+Enable Manual AE Lock or AWB Lock = [0]; 0: Not enabled; 1: AE Lock and AWB Lock; 2: AE Lock only; 3: AWB Lock only.
+(Long 3 sec. Mode button press required to turn AEL or AWBL on)
 White Balance=[0];Set White Balance,0:Auto,1:Sunny,2:Cloudy,3:Tungsten,4:Fluorescent,5:Custom WB1,6:Custom WB2,7:Custom WB3
 Sunny(5000-6500K) used for sunny with clear sky(Rgain=301,Ggain=256,Bgain=368);
 Cloudy(9000-10000K) used for shade or heavily overcast sky(Rgain=301,Ggain=256,Bgain=384);
@@ -75,5 +78,6 @@ Contrast= [0]  ;Set Contrast,values from -128 to +128,In 1 increments,default va
 Saturation= [0]  ;Set Image Saturation,values from -128 to +128,In 1 increments,default value is 0,
 Sharpness= [0]  ;Set Image Sharpness,values from -128 to +128,In 1 increments,default value is 0,
 
-{TLCAM MOV:TLCAM Mobius ActionCam 2014/11/17 v2.25}
+
+{TLCAM MOV:TLCAM Mobius ActionCam 2015/09/24 v2.41}
 {LDTLCAM,v003}
