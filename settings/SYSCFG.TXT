@@ -1,15 +1,15 @@
-Date format=[0];set date format,0:YYYY/MM/DD, 1:DD/MM/YYYY, 2:MM/DD/YYYY
-Date time=[2016/10/01-17:00:00];date time setting,yyyy/mm/dd-hh:mm:ss,dd/mm/yyyy-hh:mm:ss,or mm/dd/yyyy-hh:mm:ss
+Date format=[1];set date format,0:YYYY/MM/DD, 1:DD/MM/YYYY, 2:MM/DD/YYYY
+Date time=[18/07/2019-14:10:00];date time setting,yyyy/mm/dd-hh:mm:ss,dd/mm/yyyy-hh:mm:ss,or mm/dd/yyyy-hh:mm:ss
 
-Default Mode=[0];set power-on default mode,0:Video Mode 1,1:Video Mode 2,2:Photo Mode
+Default Mode=[1];set power-on default mode,0:Video Mode 1,1:Video Mode 2,2:Photo Mode
 
-VIDEO MODE 1
-Movie Resolution=[0];0:1080p(Wide AOV),1:1080p(Narrow AOV),2:720p(Wide AOV),3:720p(Narrow AOV),4:WVGA (Wide AOV), 5:WVGA (Narrow AOV),
+VIDEO MODE 3
+Movie Resolution=[1];0:1080p(Wide AOV),1:1080p(Narrow AOV),2:720p(Wide AOV),3:720p(Narrow AOV),4:WVGA (Wide AOV), 5:WVGA (Narrow AOV),
 Movie Frame Rate=[3];1:60fps (only for wvga and 720p Narrow AOV),2:50fps (only for wvga and 720p Narrow AOV),3:30fps,4:25 fps,5:20 fps,6:15 fps,7:10 fps,8:5 fps,
 Movie Time Lapse Record=[0];0:off,1:0.25s,2:0.5s,3:1s,4:2s,5:5s,6:10s,7:30s,8:Custom
 Movie Time Lapse Record Customized Value=[1]    ; in minutes, values from 1 to 1440 (1 day)
 Movie Sound=[1];set movie sound,0:Mute,1:On,
-Movie Cycle time=[2];movie cycle time,0:3 minutes,1:5 minutes,2:10 minutes,3:15 minutes,4:max to 4G byte,
+Movie Cycle time=[3];movie cycle time,0:3 minutes,1:5 minutes,2:10 minutes,3:15 minutes,4:max to 4G byte,
 Movie Loop Recording=[1];set loop recording on or off,0:off,1:on,
 Movie Flip=[0];set movie rotate,0:off,1:on,
 Movie Time stamp=[1];set date/time stamp on or off,0:off,1:on,
@@ -18,7 +18,7 @@ Movie high dynamic range=[0];set movie high dynamic range,0:off,1:on,2:Enhanced 
 Movie file format=[2];set movie file format,0:MOV,1:AVI,2:MP4,3:WAV (Sound Only)
 
 VIDEO MODE 2
-Movie Resolution=[3];0:1080p(Wide AOV),1:1080p(Narrow AOV),2:720p(Wide AOV),3:720p(Narrow AOV),4:WVGA (Wide AOV), 5:WVGA (Narrow AOV),
+Movie Resolution=[1];0:1080p(Wide AOV),1:1080p(Narrow AOV),2:720p(Wide AOV),3:720p(Narrow AOV),4:WVGA (Wide AOV), 5:WVGA (Narrow AOV),
 Movie Frame Rate=[1];1:60fps (only for wvga and 720p Narrow AOV),2:50fps (only for wvga and 720p Narrow AOV),3:30fps,4:25 fps,5:20 fps,6:15 fps,7:10 fps,8:5 fps,
 Movie Time Lapse Record=[0];0:off,1:0.25s,2:0.5s,3:1s,4:2s,5:5s,6:10s,7:30s,8:Custom
 Movie Time Lapse Record Customized Value=[1]    ; in minutes, values from  1 to 1440 (1 day)
@@ -56,7 +56,7 @@ TV out=[0];set Tv out,0:NTSC,1:PAL,
 TV Display Ratio=[0];set display ratio,0:4*3,1:16*9
 TF card format filesystem=[0];format TF card to FAT32 or exFAT,0:FAT32,1:exFAT
 
-Motion Detect=[0];set motion detect,0:off,1:on
+Motion Detect=[1];set motion detect,0:off,1:on
 Motion Detect Timeout=[2];set motion detect timeout,0:5s,1:15s,2:30s,3:60s
 Motion Detect Sensitivity=[0];set motion detect Sensitivity,0:high,1:nomal,2:low
 
